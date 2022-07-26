@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela HTML - Exercicio 3</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tabela HTML - Exercício 3</h1>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="3">TOPO</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>4</th>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <table>
+      <tbody>
+        <tr>
+          <td rowspan="3">TOPO</td>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>7</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="5"></td>
+        </tr>
+        <tr>
+          <td rowspan="4"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td rowspan="2"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <a href="./exercicio 2.html">Exercicio 2</a>
+      <br />
+      <a href="./exercicio 1.html">Exercicio 1</a>
+    </footer>
+  </body>
+</html>

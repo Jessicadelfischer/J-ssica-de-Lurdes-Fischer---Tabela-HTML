@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela HTML - Exercicio 1</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 1px solid black;
+        padding: 20px;
+        width: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tabela HTML - Exercício 1</h1>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr style="text-align: left">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center">
+            <th>4</th>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr style="text-align: right">
+            <th>7</th>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br />
+
+      <table>
+        <thead>
+          <tr style="text-align: left">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center">
+            <th colspan="3">4</th>
+          </tr>
+          <tr style="text-align: left">
+            <th>7</th>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+        <br />
+      </table>
+
+      <br />
+
+      <table>
+        <tbody>
+          <tr style="text-align: left">
+            <th>1</th>
+            <th>2</th>
+            <th rowspan="3" style="text-align: center">3</th>
+          </tr>
+          <tr style="text-align: center">
+            <th colspan="2">4</th>
+          </tr>
+          <tr style="text-align: left">
+            <th>7</th>
+            <td>8</td>
+          </tr>
+        </tbody>
+        <br />
+      </table>
+    </main>
+    <br />
+  </body>
+  <footer>
+    <a href="./exercicio 2.html">Exercicio 2</a>
+    <br />
+    <a href="./exercicio 3.html">Exercicio 3</a>
+  </footer>
+</html>
